@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: dao.PizzaDAOTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.660 s <<< FAILURE! -- in dao.PizzaDAOTest
+dao.PizzaDAOTest.testGetAllPizzas -- Time elapsed: 0.859 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <[Pizza{pizzaId=1, name='Margherita', description='Classic cheese and tomato sauce', smallPrice=10.00, mediumPrice=12.00, largePrice=14.00, extraLargePrice=16.00}, Pizza{pizzaId=2, name='Pepperoni', description='Cheese, tomato sauce, pepperoni', smallPrice=11.00, mediumPrice=13.00, largePrice=15.00, extraLargePrice=17.00}, Pizza{pizzaId=3, name='BBQ Chicken', description='BBQ sauce, grilled chicken, cheese', smallPrice=12.00, mediumPrice=14.00, largePrice=16.00, extraLargePrice=18.00}, Pizza{pizzaId=5, name='Veggie Delight', description='Tomato sauce, cheese, bell peppers, onions, mushrooms, olives', smallPrice=9.00, mediumPrice=11.00, largePrice=13.00, extraLargePrice=15.00}, Pizza{pizzaId=6, name='Meat Lovers', description='Tomato sauce, cheese, pepperoni, sausage, bacon, ham, beef', smallPrice=13.00, mediumPrice=15.00, largePrice=17.00, extraLargePrice=19.00}, Pizza{pizzaId=24, name='Hawaiian', description='Tomato sauce, cheese, ham, pineapple', smallPrice=11.00, mediumPrice=13.00, largePrice=15.00, extraLargePrice=17.00}, Pizza{pizzaId=25, name='Buffalo Chicken', description='Buffalo sauce, grilled chicken, cheese', smallPrice=12.00, mediumPrice=14.00, largePrice=16.00, extraLargePrice=18.00}, Pizza{pizzaId=26, name='Mushroom Delight', description='Tomato sauce, cheese, mushrooms, garlic', smallPrice=10.00, mediumPrice=12.00, largePrice=14.00, extraLargePrice=16.00}, Pizza{pizzaId=27, name='Supreme', description='Tomato sauce, cheese, pepperoni, sausage, onions, mushrooms, bell peppers', smallPrice=13.00, mediumPrice=15.00, largePrice=17.00, extraLargePrice=19.00}, Pizza{pizzaId=28, name='White Pizza', description='Olive oil, garlic, ricotta, mozzarella, parmesan', smallPrice=10.00, mediumPrice=12.00, largePrice=14.00, extraLargePrice=16.00}]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at dao.PizzaDAOTest.testGetAllPizzas(PizzaDAOTest.java:50)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+
+dao.PizzaDAOTest.testGetPizzaNames -- Time elapsed: 0.798 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <null> but was: <[Margherita, Pepperoni, BBQ Chicken, Veggie Delight, Meat Lovers, Hawaiian, Buffalo Chicken, Mushroom Delight, Supreme, White Pizza]>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1145)
+	at dao.PizzaDAOTest.testGetPizzaNames(PizzaDAOTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+

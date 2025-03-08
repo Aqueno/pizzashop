@@ -1,0 +1,9 @@
+service/OrderServiceTest.class
+dao/CustomerDAOTest.class
+DatabaseTest.class
+dao/CustomerDAOTest$1.class
+service/PizzaServiceTest.class
+util/DBConnectionTest.class
+dao/PizzaDAOTest.class
+com/mycompany/pizzashop/PizzaShopTest.class
+dao/OrderDAOTest.class
